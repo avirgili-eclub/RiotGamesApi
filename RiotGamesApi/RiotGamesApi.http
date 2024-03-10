@@ -1,0 +1,6 @@
+@RiotGamesApi_HostAddress = http://localhost:5111
+
+GET {{RiotGamesApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
