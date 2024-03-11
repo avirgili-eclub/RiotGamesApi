@@ -2,6 +2,12 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RiotGamesApi", "RiotGamesApi\RiotGamesApi.csproj", "{25DDA982-D43E-4308-A975-71933D211913}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RiotGamesApi.Core", "RiotGamesApi.Core\RiotGamesApi.Core.csproj", "{CE0D2EF3-5914-42BB-9B34-493ED6ADE511}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RiotGamesApi.Infrastructure", "RiotGamesApi.Infrastructure\RiotGamesApi.Infrastructure.csproj", "{47BD3B48-7E67-4471-BCF3-B5D13211EF39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RiotGamesApi.Domain", "RiotGamesApi.Domain\RiotGamesApi.Domain.csproj", "{D2F1C64F-7C3A-4692-8D8B-BD157A9341F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +18,17 @@ Global
 		{25DDA982-D43E-4308-A975-71933D211913}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{25DDA982-D43E-4308-A975-71933D211913}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{25DDA982-D43E-4308-A975-71933D211913}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE0D2EF3-5914-42BB-9B34-493ED6ADE511}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE0D2EF3-5914-42BB-9B34-493ED6ADE511}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE0D2EF3-5914-42BB-9B34-493ED6ADE511}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE0D2EF3-5914-42BB-9B34-493ED6ADE511}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47BD3B48-7E67-4471-BCF3-B5D13211EF39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47BD3B48-7E67-4471-BCF3-B5D13211EF39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47BD3B48-7E67-4471-BCF3-B5D13211EF39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47BD3B48-7E67-4471-BCF3-B5D13211EF39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2F1C64F-7C3A-4692-8D8B-BD157A9341F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2F1C64F-7C3A-4692-8D8B-BD157A9341F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2F1C64F-7C3A-4692-8D8B-BD157A9341F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2F1C64F-7C3A-4692-8D8B-BD157A9341F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
